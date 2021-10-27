@@ -156,3 +156,5 @@ def update_charts(location, start_date, end_date):
 
 if __name__ == "__main__":
     app.run_server(debug=False)
+
+server = app.server
