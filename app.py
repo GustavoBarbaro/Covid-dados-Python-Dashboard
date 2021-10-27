@@ -5,7 +5,8 @@ import pandas as pd
 import numpy as np
 from dash.dependencies import Output, Input
 
-app = dash.Dash(__name__)
+#app = dash.Dash(__name__)
+app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 server = app.server
 
 
