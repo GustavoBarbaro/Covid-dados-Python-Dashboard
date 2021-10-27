@@ -1,6 +1,5 @@
 dash==1.13.3
 gunicorn
-numpy==1.17.2
 Flask==2.0.2
 dash-core-components==1.10.1
 dash-html-components==1.0.3
