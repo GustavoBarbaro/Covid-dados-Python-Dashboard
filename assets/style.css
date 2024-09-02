@@ -5,8 +5,9 @@ body {
 }
 
 .header {
-    background: url("https://www.desktopbackground.org/download/2560x1440/2015/07/01/972708_wallpaper-abstract-texture-blue-background-pattern-wallpapers_2560x1600_h.jpg");
-    background-size: 200%;
+    /* background: url("https://www.desktopbackground.org/download/2560x1440/2015/07/01/972708_wallpaper-abstract-texture-blue-background-pattern-wallpapers_2560x1600_h.jpg"); */
+    background: url("https://img.freepik.com/free-vector/futuristic-science-lab-background_23-2148505015.jpg?t=st=1725237014~exp=1725240614~hmac=800e5bc96b6f19381c6bb9cec81d6800799e6bf0c107d2815a2ff698bb4d668d&w=1380");
+    background-size: 100%;
     background-color: #2a015e;
     height: 288px;
     padding: 16px 0 0 0;

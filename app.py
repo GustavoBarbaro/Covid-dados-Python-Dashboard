@@ -12,7 +12,8 @@ from dash.dependencies import Output, Input
 data = pd.read_csv("owid-covid-data.csv")
 
 #lendo as datas da maneira correta
-data["date"] = pd.to_datetime(data["date"], format="%Y/%m/%d")
+# data["date"] = pd.to_datetime(data["date"], format="%Y/%m/%d")
+data["date"] = pd.to_datetime(data["date"], format="%Y-%m-%d")
 data.sort_values("date", inplace=True)
 
 #definindo a fonte
